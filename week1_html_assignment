@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hospital Management System</title>
+  </head>
+  <body style = "font-family: Arial, Helvetica, sans-serif;">
+        <header style = "font-size: 40px; text-align: center; background-color:#22177A; color: #FFFFFF; padding: 20px; border-radius: 20px;">
+            Hospital Management System
+        </header>
+
+        <img src = "https://static.vecteezy.com/system/resources/previews/002/423/253/non_2x/medical-hospital-building-outside-an-ambulance-car-next-to-the-hospital-building-isolated-medical-facility-exterior-view-with-trees-and-clouds-on-the-background-flat-illustration-vector.jpg" alt = "Hospital" height = "300px" width = "400px" style="margin-left: auto; margin-right: auto; display: block;">
+
+        <nav style = "background-color: #605EA1; padding: 8px; border-radius: 20px;">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="#depts" style = "color: rgba(91, 2, 109, 0.719);">Departments</a></li>
+                <li><a href="#about" style = "color: rgba(91, 2, 109, 0.719);">About Us</a></li>
+                <li><a href="#contact" style = "color: rgba(91, 2, 109, 0.719);">Contact</a></li>
+            </ul>
+        </nav>
+
+        <br>
+        <section id = "depts" style = "background-color: #8EA3A6; padding: 8px; border-radius: 20px;">
+            <h2>Departments & Services</h2>
+            <p>We offer a range of medical services to ensure quality healthcare:</p>
+
+            <ol>
+                <li>
+                    <strong>Cardiology:</strong> Advanced heart care treatments.
+                </li>
+                <li>
+                    <strong>Neurology:</strong> Specialized care for brain and nerve conditions.
+                </li>
+                <li>
+                    <strong>Pediatrics:</strong> Medical care for children and infants.
+                </li>
+                <li>
+                    <strong>Orthopedics:</strong> Treatment for bone and joint disorders.
+                </li>
+                <li>
+                    <strong>Psychiatry:</strong> Mental health and counseling services.
+                </li>
+                <li><strong>Dermatology:</strong> Skin treatments and care.</li>
+            </ol>
+        </section>
+
+        <br>
+        <section id = "about" style = "background-color: #8EA3A6; padding: 8px; border-radius: 20px;">
+            <h2>About Us</h2>
+            <p>
+                Welcome to our hospital management system, where we ensure top-quality
+                healthcare and expert medical professionals at your service.
+            </p>
+        
+            <p>
+                Our mission is to provide efficient, technology-driven medical care to all
+                our patients.
+            </p>
+        </section>
+
+        <br>
+        <section id = "contact" style = "background-color: #8EA3A6; padding: 8px; border-radius: 20px;">
+            <h2>Contact Information</h2>
+            <p>Email: info@healthcarehub.com</p>
+            <p>Phone: +123-456-7890</p>
+        </section>
+        <hr/>
+
+        <footer style="text-align: center; background-color: #E6E9AF;border-radius: 20px; padding: 8px;">
+            <p>&copy; 2025 Hospital Management System. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
