@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#head{
+    font-size: 40px; 
+    text-align: center; 
+    background-color:#22177A; 
+    color: #FFFFFF; 
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#nav{
+    background-color: #605EA1; 
+    padding: 8px; 
+    border-radius: 20px;
+}
+
+#depts{
+    background-color: #8EA3A6; 
+    padding-top: 20px; 
+    border-radius: 20px;
+    height: 700px;
+    text-align: center; 
+}
+
+#about{
+    background-color: #8EA3A6; 
+    padding: 8px; 
+    border-radius: 20px;
+}
+
+#contact{
+    background-color: #8EA3A6; 
+    padding: 8px; 
+    border-radius: 20px;
+}
+
+#copyR{
+    text-align: center; 
+    background-color: #E6E9AF;
+    border-radius: 20px; 
+    padding: 8px;
+}
+
+#deptpics{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+}
