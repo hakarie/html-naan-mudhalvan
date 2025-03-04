@@ -36,22 +36,22 @@ body{
 
 #main-img{
     display: flex;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Le5K6q31ed-pOlB8bMSJZGK5Sk0vHJFGNA&s);
+    background-image: url(https://www.canadaqbank.com/blog/storage/2024/03/How-can-International-Medical-Students-and-Doctors-Practice-in-the-US.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px ;
-    width: 1320px;
+    height: 600px;
+    width: device-width;
     border-radius: 40px;
-    align-items: center;
     padding: 5%;
-    color: white;
+    color: black;
+    padding-top: 100px;
 }
 
 #departments{
     background-color: #8EA3A6; 
     padding-top: 20px; 
     border-radius: 20px;
-    height: 700px;
+    height: 600px;
     text-align: center; 
 }
 
@@ -59,7 +59,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 40px;
+    margin-top: 50px;
 }
 
 .gallery figure {
@@ -68,12 +69,11 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 200px;
-    height: 250px;
+    width: 250px;
+    height: 350px;
     background: #fff;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .gallery img {
@@ -93,16 +93,16 @@ body{
 #about {
     display: flex;
     align-items: center; 
-    justify-content: space-between; 
     padding: 20px; 
-    background-color: #4B6055;
+    background-color: white;
     border-radius: 38px; 
+    height: 500px;
 }
 
 #about section {
     width: 60%;
     font-size: 18px;
-    color: white;
+    color: black;
     line-height: 1.5;
 }
 
@@ -111,6 +111,7 @@ body{
     height: 300px; 
     border-radius: 30px;
     object-fit: cover; 
+    margin-left: 10%;
 }
 
 #contact{
