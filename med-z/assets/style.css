@@ -1,0 +1,142 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F5F5;
+    color: #333333;
+}
+
+#head{
+    position: relative;
+    text-align: center; 
+    display : flex;
+    background-color: #0056b3;
+    color: white; 
+    padding: 20px;
+    border-radius: 20px;
+    border-bottom: 5px solid teal;
+}
+
+#nav{
+    background-color: #605EA1; 
+    padding: 5px; 
+    border-radius: 20px;
+    margin-left: 20px;
+    height: 40px;
+    margin-top: 8px;
+}
+
+
+.button{
+    font-size: 15px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: absolute;
+    right: 20px;
+}
+
+button:hover {
+    background-color: #6fa603;
+}
+
+#main-img{
+    display: flex;
+    background-image: url(https://www.canadaqbank.com/blog/storage/2024/03/How-can-International-Medical-Students-and-Doctors-Practice-in-the-US.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: device-width;
+    border-radius: 40px;
+    padding: 5%;
+    color: black;
+    padding-top: 100px;
+    font-size: 30%;
+}
+
+#departments{
+    background-color: #8EA3A6; 
+    padding-top: 20px; 
+    border-radius: 20px;
+    height: 600px;
+    text-align: center; 
+    min-height: 35rem;
+    min-width: 200px;
+    width: auto;
+    height: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 50px;
+    height: 50%;
+}
+
+.gallery figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.gallery figcaption {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 8px;
+}
+
+
+
+#about {
+    display: flex;
+    align-items: center; 
+    padding: 20px; 
+    background-color: white;
+    border-radius: 38px; 
+    height: 40%;
+}
+
+#about section {
+    width: 60%;
+    font-size: 18px;
+    color: black;
+    line-height: 1.5;
+}
+
+#about img {
+    width: 350px;
+    height: 300px; 
+    border-radius: 30px;
+    object-fit: cover; 
+    margin-left: 10%;
+}
+
+#contact{
+    background-color: #8EA3A6; 
+    padding: 8px; 
+    border-radius: 20px;
+}
+
+#copyR{
+    text-align: center; 
+    background-color: #E6E9AF;
+    border-radius: 20px; 
+    padding: 8px;
+}
