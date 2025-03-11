@@ -1,11 +1,11 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #F5F5F5;
+    background-color: #e1dddd;
     color: #333333;
+    margin: 1%;
 }
 
-#head{
-    position: relative;
+#head {
     text-align: center; 
     display : flex;
     background-color: #0056b3;
@@ -13,36 +13,53 @@ body{
     padding: 20px;
     border-radius: 20px;
     border-bottom: 5px solid teal;
+    
 }
 
-#nav{
+#nav {
     background-color: #605EA1; 
     padding: 5px; 
     border-radius: 20px;
     margin-left: 20px;
     height: 40px;
     margin-top: 8px;
+    font-weight: bold;
 }
 
 
-.button{
+.button {
+    font-size: 15px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 8px;
+    padding-left: 25px;
+    padding-right: 25px;    
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.login-button {
+    background-color: #28a745;
     font-size: 15px;
     height: 40px;
     border-radius: 20px;
     margin-top: 8px;
     padding-left: 25px;
     padding-right: 25px;
-    position: absolute;
     right: 20px;
+    color: white;
+    border: none;
 }
 
-button:hover {
-    background-color: #6fa603;
-}
-
-#main-img{
+#main-img {
     display: flex;
-    background-image: url(https://www.canadaqbank.com/blog/storage/2024/03/How-can-International-Medical-Students-and-Doctors-Practice-in-the-US.jpg);
+    background-image: url('mainimg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -54,8 +71,8 @@ button:hover {
     font-size: 30%;
 }
 
-#departments{
-    background-color: #8EA3A6; 
+#departments {
+    background-color: #c3cccf; 
     padding-top: 20px; 
     border-radius: 20px;
     height: 600px;
@@ -86,6 +103,7 @@ button:hover {
     background: #fff;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .gallery img {
@@ -102,8 +120,6 @@ button:hover {
     margin-top: 8px;
 }
 
-
-
 #about {
     display: flex;
     align-items: center; 
@@ -111,6 +127,7 @@ button:hover {
     background-color: white;
     border-radius: 38px; 
     height: 40%;
+    margin: 3%;
 }
 
 #about section {
@@ -128,15 +145,81 @@ button:hover {
     margin-left: 10%;
 }
 
-#contact{
-    background-color: #8EA3A6; 
-    padding: 8px; 
-    border-radius: 20px;
+#doctorDetails {
+    height: auto;
+    width: auto;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 30px;
+    padding: 3.5%;
 }
 
-#copyR{
-    text-align: center; 
-    background-color: #E6E9AF;
-    border-radius: 20px; 
-    padding: 8px;
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+    margin-top: 50px;
+    height: 50%;
+}
+
+.card {
+    width: 250px;
+    padding: 15px;
+    border: 1px solid #e3cccc;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+.card img {
+    width: 150px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card h3 {
+    margin: 10px 0 5px;
+}
+.card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+#contact {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px auto;
+    width: 60%;
+    box-shadow: 0px 7px 6px rgba(0, 0, 0, 0.3);
+}
+
+#contact h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    color: #555;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+}
+
+#copyR {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
 }
