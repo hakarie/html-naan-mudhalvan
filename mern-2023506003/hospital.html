@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/style.css">
+        <title>MED-Z</title>
+    </head>
+
+    <body>
+        <header id="head">
+            <h1>
+                MED-Z
+                <img src = "assets/medz.jpg" alt = "heart plus" height = "45px" width = "45px" style = "border-radius: 10px;">
+            </h1>
+            <nav id = "nav" class="navbar navbar-expand-lg navbar-light bg-light" >
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div style="background-color: white; border-radius: 30px;" class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="hospital.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#departments">Departments</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#contact">Contact</a>
+                                <a class="dropdown-item" href="doctors.html">Our Doctors</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div style="display: flex;justify-content: center; margin-left: auto; gap: 5px"> 
+                <a href="login.html"><button class="login-button">login</button></a>
+                <a href="appointment.html"><button class = "button">Book Appointment</button></a>
+            </div>
+        </header>
+
+        <br>
+        <section id = "main-img" >
+            <h2 style="font-size: 80px;">Healing with Care, Compassion, <br> and Excellence</h2>
+        </section>
+        
+        <br>
+
+        <section id="about">
+            <section>
+                <h2>About Us</h2>
+                <br>
+                <p>At <strong>MED-Z</strong>, we are committed to delivering exceptional healthcare services with  
+                    a focus on compassion, innovation, and excellence. Our hospital is equipped with  
+                    state-of-the-art medical technology and a dedicated team of highly skilled doctors,  
+                    nurses, and healthcare professionals who prioritize patient well-being.</p>
+             
+                <p>We offer a wide range of medical services, including specialized treatments, emergency  
+                    care, and preventive healthcare programs. Our mission is to provide accessible and  
+                    high-quality medical care, ensuring that every patient receives the attention and  
+                    treatment they deserve.</p>
+             
+                <p>At MED-Z, your health is our priority. We strive to create a safe, comfortable,  
+                    and healing environment for all our patients, making healthcare a seamless and  
+                    reassuring experience.</p>
+            </section>
+            <img src = "assets/aboutmedz.jpg" alt = "doctor" height = "300px" width="350px" style="border-radius: 30px;">
+        </section>
+
+        <br>
+                            
+        <section id="departments">
+            <h2 style="font-size: 60px;">Our Departments</h2>
+            <div class="gallery">
+                <a href="#">
+                    <figure>
+                        <img src="assets/cardiology.jpeg" alt="Cardiology">
+                        <figcaption>Cardiology</figcaption>
+                    </figure>
+                </a>
+                
+                <a href="#">
+                    <figure>
+                        <img src="assets/Dentistry.jpeg" alt="Dentistry">
+                        <figcaption>Dentistry</figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure>
+                        <img src="assets/Neurology.jpeg" alt="Neurology">
+                        <figcaption>Neurology</figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure>
+                        <img src="assets/Orthopedics.jpeg" alt="Neurology">
+                        <figcaption>Orthopedics</figcaption>
+                    </figure>
+                </a>
+            </div>
+        </section>
+
+        <br>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>Email: info@healthcarehub.com</p>
+            <p>Phone: +123-456-7890</p>
+        </section>
+        <hr/>
+
+        <footer id="copyR">
+            <p>&copy; 2025 MED-Z. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
